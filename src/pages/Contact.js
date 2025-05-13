@@ -4,7 +4,6 @@ import Footer from "../component/Footer";
 import { INFO } from "../constant";
 
 function Contactpage() {
-    const phoneNumber = ''
     const ClickToContact= () =>{
     
     }
