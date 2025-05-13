@@ -191,6 +191,7 @@ function Homepage() {
                                     {/* <li className="breadcrumb-item small"><i className="fa fa-signal text-primary me-2"></i>Beginner</li> */}
                                     <li className="breadcrumb-item medium fw-bold"><i className="fa fa-calendar-alt text-primary me-2"></i>15 DAYS / 30 MIN</li>
                                 </ol>
+                                
                             </div>
                             <div className="position-relative mt-auto">
                                 <img className="img-fluid" src="assets/img/courses-3.jpg" alt="courses-3" />
