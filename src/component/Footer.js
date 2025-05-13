@@ -31,7 +31,7 @@ function Footer() {
 <ul className="mb-2 list-unstyled">
   <li>
     <i className="fa fa-map-marker-alt me-3"></i>
-    <a href="https://www.google.com/maps/dir//FF-4,+Devarshi+Complex,+Ajanta+Ellora+Rd,+nr.+TULIP+BUNGLOWS,+Thaltej,+Ahmedabad,+Gujarat+380054,+India/@23.056231,72.443181,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e8512f29ecf1b:0x2b0c590d1ac50cf8!2m2!1d72.5255826!2d23.0562524?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style={{ color: 'white' }}>
+    <a rel="noreferrer" href="https://www.google.com/maps/dir//FF-4,+Devarshi+Complex,+Ajanta+Ellora+Rd,+nr.+TULIP+BUNGLOWS,+Thaltej,+Ahmedabad,+Gujarat+380054,+India/@23.056231,72.443181,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e8512f29ecf1b:0x2b0c590d1ac50cf8!2m2!1d72.5255826!2d23.0562524?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style={{ color: 'white' }}>
       FF-4, Devarshi Complex, Nr. Tulip Bungalows, Thaltej, Ahmedabad, Gujarat 380054, India
     </a>
   </li>
@@ -106,9 +106,16 @@ function Footer() {
         </div>
       </div>
 
-      <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
+      {/* <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
         <i className="bi bi-arrow-up"></i>
-      </a>
+      </a> */}
+      <button
+  className="btn btn-lg btn-primary btn-lg-square back-to-top"
+  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+>
+  ↑
+</button>
+
     </>
   );
 }
